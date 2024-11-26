@@ -1,0 +1,30 @@
+html,
+body,
+#root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.a-dialog-allow-button {
+    background-color: #9BD7E1;
+}
+
+.a-dialog-deny-button {
+    background-color: #2D387F;
+}
+
+.a-dialog-ok-button {
+    background-color: #9BD7E1;
+}
+
+.a-loading-screen {
+    background: #2D387F; /* Background color */
+    color: #ffffff; /* Text color */
+  }
+  .a-loading-screen .spinner {
+    border-color: #ffffff transparent transparent transparent; /* Spinner colors */
+  }
