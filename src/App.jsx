@@ -84,7 +84,7 @@ export function App() {
         <a-sky src="#panorama"></a-sky>
 
 
-        {started && <a-plane
+        {/* {started && <a-plane
           class="clickable"
           src="#date"
           position={`0.04 -0.2 -${DEFAULT_DISTANCE_FROM_USER}`}
@@ -222,10 +222,10 @@ export function App() {
           position={`-${DEFAULT_DISTANCE_FROM_USER} 0 0`}
           rotation="0 90 0"
           scale="1 1 1"
-          closeFunction={() => setShowPanelists(false)} />}
+          closeFunction={() => setShowPanelists(false)} />} */}
 
         {/* Video Principal */}
-
+{/* 
         <VideoGallery
           videos={[{ src: "#video", autoplay: false }]}
           titleSrc="#video-titulo"
@@ -337,10 +337,10 @@ export function App() {
           position={`0 0 ${DEFAULT_DISTANCE_FROM_USER}`}
           rotation="0 180 0"
           closeFunction={() => setShowCharacteristics(false)}
-        />}
+        />} */}
 
         {/* Ambient Elements */}
-        <a-plane
+        {/* <a-plane
           src="#ambient1"
           transparent="true"
           position="0.5 1 2"
@@ -456,7 +456,7 @@ export function App() {
           scale="0.4 0.4 0.4"
           material="shader: flat"
           animation="property: position; to: -3 -1 -2; dur: 15000; easing: easeInOutQuad; loop: true; dir: alternate;"
-        ></a-plane>
+        ></a-plane> */}
       </a-scene>
     </>
   );
